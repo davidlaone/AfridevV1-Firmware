@@ -54,7 +54,7 @@
  *        water has been detected over a
  *        NO_WATER_HF_TO_LF_TIME_IN_SECONDS window of time.
  */
-#define LOW_FREQUENCY_MEAS_TIME_IN_SECONDS ((uint8_t)TIME_60_SECONDS)
+#define LOW_FREQUENCY_MEAS_TIME_IN_SECONDS ((uint8_t)TIME_20_SECONDS)
 
 /**
  * \def WATER_LF_MEAS_BATCH_COUNT
