@@ -129,7 +129,7 @@ void sysExec_exec(void) {
     // h, m, s, am/pm (must be in BCD)
     setTime(0x00, 0x00, 0x00, 0x00);
     // y, m, d
-    setDate(2017, 1, 1);
+    setDate(2018, 1, 1);
 
     // Call the module init routines
     modemPower_init();
